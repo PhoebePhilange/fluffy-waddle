@@ -4,6 +4,9 @@
     padding: 4em 2em;
     text-align: center;
 }
+.all-row{
+    padding-top: 7px;
+}
 .row-1{
     height: 15vh;
 }
@@ -84,4 +87,12 @@ h3{
       margin-bottom: 3em;
   }
 
-  
+  @media only screen and (max-width: 768px){
+      .container-fluid{
+          padding: 2em 2em;
+      }
+      img{
+          margin-top: 2em;
+          margin-left: 0;
+      }
+  }

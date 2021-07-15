@@ -5,7 +5,7 @@ top: 35%;
 left: 20%;
 color: white;
 font-weight: 400;
-text-transform: uppercase;
+/* text-transform: uppercase; */
 }
 .name{
     color: #FF64CB;
@@ -22,15 +22,15 @@ text-transform: uppercase;
     font-family: 'Shadows Into Light', cursive;
 }
 .cta{
-    width: 25%;
+    width: 20%;
     background-color: #28F2DA;
     color: #252934;
+    text-align: center;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .cta:hover{
-    border: 1px solid #042AF3;
-    color: #042AF3
+    background-color: #FF64CB;
 }
 .nav-bar{
     width: 100%;
@@ -51,3 +51,20 @@ ng-particles{
 }
 /* THe container */
 
+@media only screen and (max-width: 768px) {
+    .main {
+        background-color: #252934;
+        height: 100vh;
+        padding: 0 20px;
+        width: auto;
+       }
+       .main ng-particles{
+           display: none;
+       }
+       .main #text{
+           position: unset;
+       }
+       .cta{
+           display: none;
+       }
+  }

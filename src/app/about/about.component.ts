@@ -9,11 +9,16 @@ import { ISourceOptions } from 'tsparticles';
 })
 export class AboutComponent implements OnInit {
   id = "tsparticles";
-
+  
   constructor() { }
 
   ngOnInit(): void {
   }
+ 
+
+  toAbout(){
+    document.getElementById("skills")?.scrollIntoView();
+}
 
   particlesOptions: ISourceOptions = {
     background: {

@@ -34,3 +34,19 @@ label{
     background-color: #6700ff;
     color: white;
 }
+.connect-text{
+    margin-top: 3rem;
+}
+
+@media only screen and (max-width: 768px){
+    .social-row{
+        margin-top: 2em;
+    }
+    .form-div{
+        border: none;
+    }
+    .connect-text{
+        margin-top: 1em;
+        text-align: left;
+    }
+}

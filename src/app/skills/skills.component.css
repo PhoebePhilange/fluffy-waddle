@@ -21,12 +21,14 @@
 }
 
 header{
-    background-color: #6700ee;
+    background-color: #252934;
     color: white;
     height: 30px;
+   
 }
 .card-header-title{
-    color: white
+    color: white;
+    text-align: center;
 }
 
 .languages{
@@ -56,14 +58,19 @@ header{
     border-left: 1px solid black;
 } */
 .cta-btn{
-    border: 1px solid black;
     text-decoration: none;
     color: black;
-    padding: 10px 30px;
+    padding: 7px;
     /* margin-top: 40px; */
     margin-left: 10px;
     display: inline-block;
     border-radius: 20px;
+    background-color: #6700ee;
+    color: white;
+    font-weight: bold;
+}
+.inner{
+    color: #6700ee;
 }
 
 
@@ -82,8 +89,9 @@ header{
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
-    margin-top: 1rem;
-    background-color: black;
+    margin-top: -1rem;
+    margin-left: 1rem;
+    
   }
   .text {
     background-color: #04AA6D;
@@ -98,4 +106,15 @@ header{
   
  .avi:hover .middle {
     opacity: 1;
+  }
+
+  @media only screen and (max-width: 768px){
+     .profile-img{
+         border-radius: 50%;
+         max-width: 200px;
+         margin-left: 3em;
+     } 
+     .skills-header{
+         height: 5vh;
+     }
   }
