@@ -18,9 +18,8 @@ export class SkillsComponent implements OnInit {
     this.scroll();
   }
 
-  scroll(){
-    var tl = gsap.timeline();
-    
+  scroll(): void{
+       
     gsap.from('.transition2',{
         scrollTrigger:{
             trigger: '.transition2',

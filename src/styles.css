@@ -22,7 +22,7 @@ body{
 body::before{
     content: "";
     /* background: whitesmoke; */
-    background: url("./assets/images/jordan-whitt.jpg") center no-repeat;
+    background: url("./assets/images/pedro-lastra-Nyvq2juw4_o-unsplash.jpg") center no-repeat;
     background-size: cover;
     height: 100vh;
     top: 20;

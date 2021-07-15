@@ -49,6 +49,9 @@ ng-particles{
 .resume{
     text-align: center;
 }
+.main{
+    margin: 0;
+}
 /* THe container */
 
 @media only screen and (max-width: 768px) {
