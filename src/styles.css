@@ -1,1 +1,45 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import '~bulma/css/bulma.css';
+@import "~font-awesome/css/font-awesome.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 15px !important;
+    margin: 0;
+    /* background-color: #040404; */
+   
+    position: relative;
+    
+
+}
+body::before{
+    content: "";
+    /* background: whitesmoke; */
+    background: url("./assets/images/jordan-whitt.jpg") center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    top: 20;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: -2;
+}
+
+html, body { height: 100%; }
+h1, h2, h3, .skills-list  {
+    font-family: 'Inknut Antiqua', serif !important;
+  }
+
+  h1{
+      text-transform: uppercase;
+  }
+  #skills{
+      background-color: whitesmoke !important;
+  }
+

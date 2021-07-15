@@ -1,0 +1,77 @@
+<div class="container-fluid">
+    <div class="row">
+       <div class="text-center">
+        <h2>Contact Me</h2>
+        <!-- <h3>Want to connect?</h3>
+        <p>Find me here: wacumbugua@gmail.com</p> -->
+       </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-11">
+            <div class="row">
+                <div class="col-md-6 form-div">
+                    <!-- form -->
+                      <form #f="ngForm" (ngSubmit)="sendEmail($event, f)">
+                      <div class="field">
+                        <label class="label">Name</label>
+                        <div class="control has-icons-left">
+                          <input class="input" type="text" ngModel #name="ngModel"  placeholder="" name="from_name">
+                          <span class="icon is-small is-left">
+                            <i class="fa fa-user"></i>
+                          </span>
+                        </div>
+                      </div>
+                      
+                      <div class="field">
+                        <label class="label">Email</label>
+                        <div class="control has-icons-left">
+                          <input class="input" type="email" ngModel #sender_email="ngModel" placeholder="" name="sender_email">
+                          <span class="icon is-small is-left">
+                            <i class="fa fa-envelope"></i>
+                          </span>
+                        </div>
+                      </div>
+                      
+                      <div class="field">
+                        <label class="label">Message</label>
+                        <div class="control">
+                          <textarea class="textarea" ngModel #message="ngModel" placeholder="" name="message"></textarea>
+                        </div>
+                      </div>
+                      <br>
+                      <div class="field is-grouped">
+                        <div class="control">
+                          <button mat-raised-button class="sendBtn">Send</button>
+                        </div>
+                      </div>
+                      </form>
+                    <!-- end -->
+                </div>
+                <div class="col-md-6">
+                    <h2 style="margin-top: 3rem;" class="text-center">Let's connect!</h2>
+                    <ul class="social-row">
+                        <li>
+                          <a href="https://twitter.com/Joy__Mbugua" target="_blank" rel="noopener noreferrer">
+                            <img src="https://img.icons8.com/nolan/64/twitter-circled.png"/>
+                          </a>
+                         
+                        </li>
+                        <li>
+                          <a target="_blank" href="https://www.linkedin.com/in/wacu-mbugua/" rel="noopener noreferrer">
+                            <img src="https://img.icons8.com/nolan/64/linkedin.png"/>
+                          </a>
+                          
+                        </li>
+                        <li>
+                          <a href="https://github.com/JoyMbugua" target="_blank" rel="noopener noreferrer">
+                            <img src="https://img.icons8.com/nolan/64/github.png"/>
+                          </a>
+                         
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

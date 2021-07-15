@@ -1,0 +1,53 @@
+
+#text{
+position: absolute;
+top: 35%;
+left: 20%;
+color: white;
+font-weight: 400;
+text-transform: uppercase;
+}
+.name{
+    color: #FF64CB;
+    
+}
+.lead{
+    font-size: 5rem;
+    
+}
+.lead-texts{
+    line-height: 800%;
+}
+.cursive{
+    font-family: 'Shadows Into Light', cursive;
+}
+.cta{
+    width: 25%;
+    background-color: #28F2DA;
+    color: #252934;
+    padding: 10px;
+    border-radius: 10px;
+}
+.cta:hover{
+    border: 1px solid #042AF3;
+    color: #042AF3
+}
+.nav-bar{
+    width: 100%;
+    background-color: #1d2029;
+    position: fixed;
+    top: 0;
+    color: #FF64CB;
+}
+
+ng-particles{
+    position: relative;
+}
+.cta-container{
+    display: flex;
+}
+.resume{
+    text-align: center;
+}
+/* THe container */
+

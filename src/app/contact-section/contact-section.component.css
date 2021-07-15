@@ -1,0 +1,36 @@
+textarea{
+    resize: none;
+}
+.social-row{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 7rem;
+    
+}
+.form-div{
+    border-right: 1px solid #c1c1c1;
+}
+.container-fluid{
+    background-color: #252934;
+    color: white;
+    margin:0;
+    padding: 50px;
+}
+.flex-items{
+    display: flex;
+    
+}
+.flex-items .field{
+   width: 100%;
+    
+}
+.field{
+    margin: 10px 20px;
+}
+label{
+    color: white;
+}
+.sendBtn{
+    background-color: #6700ff;
+    color: white;
+}

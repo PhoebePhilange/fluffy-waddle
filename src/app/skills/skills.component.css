@@ -1,0 +1,101 @@
+.container-fluid{
+    background-color: white;
+}
+.row-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skills-header{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.content-row{
+    margin-top: 4rem;
+}
+
+header{
+    background-color: #6700ee;
+    color: white;
+    height: 30px;
+}
+.card-header-title{
+    color: white
+}
+
+.languages{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+
+}
+.card{
+    min-width: 350px;
+    margin: .5rem;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+}
+.about{
+    line-height: 250%;
+   
+}
+.avi{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+/* .about-me{
+    border-left: 1px solid black;
+} */
+.cta-btn{
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    padding: 10px 30px;
+    /* margin-top: 40px; */
+    margin-left: 10px;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+
+.tools-head{
+    display: flex;
+}
+.image {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 1rem;
+    background-color: black;
+  }
+  .text {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 5px;
+  }
+ .avi:hover .image {
+    opacity: 0.3;
+  }
+  
+ .avi:hover .middle {
+    opacity: 1;
+  }
