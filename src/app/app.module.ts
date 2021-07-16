@@ -17,13 +17,9 @@ import { MatInputModule } from '@angular/material/input';
 import { MatIconModule } from '@angular/material/icon';
 import { ContactSectionComponent } from './contact-section/contact-section.component';
 import { FooterSectionComponent } from './footer-section/footer-section.component';
-import { NewProjectsComponent } from './new-projects/new-projects.component';
-import { NewSkillsComponent } from './new-skills/new-skills.component';
 import { SkillsHeaderComponent } from './skills-header/skills-header.component';
 import { ProjectsHeaderComponent } from './projects-header/projects-header.component';
-import { ContactsHeaderComponent } from './contacts-header/contacts-header.component';
 import { Back, Power1 } from 'gsap';
-import { HoverComponent } from './hover/hover.component';
 
 @NgModule({
   declarations: [
@@ -34,12 +30,8 @@ import { HoverComponent } from './hover/hover.component';
     ProjectsSectionComponent,
     ContactSectionComponent,
     FooterSectionComponent,
-    NewProjectsComponent,
-    NewSkillsComponent,
     SkillsHeaderComponent,
     ProjectsHeaderComponent,
-    ContactsHeaderComponent,
-    HoverComponent
   ],
   imports: [
     BrowserModule,
