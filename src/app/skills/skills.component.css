@@ -63,15 +63,16 @@ header{
     padding: 3px 7px;
     margin-left: 10px;
     display: inline-block;
+    border: 1px solid #6700ff;
     border-radius: 20px;
     background-color: white;
     color: white;
     font-size: 14px;
-    font-weight: bold;
     color: #6700ff;
 }
 .inner{
     color: #6700ff;
+    padding-right: 5px;
 }
 
 
