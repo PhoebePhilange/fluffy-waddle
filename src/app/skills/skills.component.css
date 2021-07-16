@@ -63,12 +63,11 @@ header{
     padding: 10px 30px;
     margin-left: 10px;
     text-align: center;
-    border: 1px solid #6700ff;
     border-radius: 20px;
     background-color: white;
     color: white;
     font-size: 14px;
-    color: #6700ff;
+    background-color: #6700ff;
     font-weight: bold;
 }
 .inner{

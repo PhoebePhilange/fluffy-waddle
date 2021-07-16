@@ -10,7 +10,7 @@ const routerOptions: ExtraOptions = {
   scrollOffset: [0, 64],
 }
 const routes: Routes = [
-  // {path: '', component: NavbarComponent},
+  {path: '', component: NavbarComponent},
   {path: 'skills', component: SkillsComponent}
 ];
 
