@@ -60,15 +60,16 @@ header{
 .cta-btn{
     text-decoration: none;
     color: black;
-    padding: 1em;
+    padding: 10px 30px;
     margin-left: 10px;
-    display: inline-block;
+    text-align: center;
     border: 1px solid #6700ff;
     border-radius: 20px;
     background-color: white;
     color: white;
-    font-size: 12px;
+    font-size: 14px;
     color: #6700ff;
+    font-weight: bold;
 }
 .inner{
     color: #6700ff;
