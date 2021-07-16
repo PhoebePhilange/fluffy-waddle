@@ -60,8 +60,7 @@ header{
 .cta-btn{
     text-decoration: none;
     color: black;
-    padding: 7px;
-    /* margin-top: 40px; */
+    padding: 3px 7px;
     margin-left: 10px;
     display: inline-block;
     border-radius: 20px;
