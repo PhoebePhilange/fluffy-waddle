@@ -13,7 +13,7 @@ body{
     font-family: 'Open Sans', sans-serif !important;
     font-size: 15px !important;
     margin: 0 !important;
-    /* background-color: #040404; */
+    background-color: transparent;
    
     position: relative;
     
@@ -44,3 +44,8 @@ h1, h2, h3, .skills-list  {
       background-color: whitesmoke !important;
   }
 
+@media only screen and (max-width: 768px){
+    body{
+        margin: 100px;
+    }
+}

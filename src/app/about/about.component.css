@@ -7,11 +7,11 @@ color: white;
 font-weight: 400;
 /* text-transform: uppercase; */
 }
-.name{
+.my-name{
     color: #FF64CB;
     
 }
-.lead{
+.lead, .my-name{
     font-size: 5rem;
     
 }
@@ -28,6 +28,7 @@ font-weight: 400;
     text-align: center;
     padding: 10px;
     border-radius: 20px;
+    transform-origin: 50% 50%;
 }
 .cta:hover{
     background-color: #FF64CB;
@@ -52,14 +53,36 @@ ng-particles{
 .main{
     margin: 0;
 }
-/* THe container */
 
-@media only screen and (max-width: 768px) {
+@keyframes downarrow {
+    0% { -webkit-transform: translateY(0);}
+    100% { -webkit-transform: translateY(0.4em);}
+  }
+/* THe container */
+@media only screen and (max-width: 1250px){
+    #text{
+        top: 15%;
+    }
+}
+
+@media only screen and (width: 768px){
+    .lead, .my-name{
+        font-size: 3.5rem;
+    }
+    #text{
+        top: 13%
+    }
+    .lead-texts{
+        line-height: 600%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
     .main {
         background-color: #252934;
-        height: 100vh;
         padding: 0 20px;
-        width: auto;
+        height: 100vh;
+        width: auto; /* new */
        }
        .main ng-particles{
            display: none;
@@ -67,7 +90,19 @@ ng-particles{
        .main #text{
            position: unset;
        }
-       .cta{
-           display: none;
-       }
+     
+       .lead-texts{
+        line-height: 600%;
+    }
+    .lead, .my-name{
+        font-size: 3.5rem;
+    }
+    .cta{
+        width: 150px
+    }
+    .cta svg{
+        animation: downarrow 0.6s infinite alternate ease-in-out;
+        
+    }
   }
+
