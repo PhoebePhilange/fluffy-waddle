@@ -61,7 +61,7 @@ ng-particles{
 /* THe container */
 @media only screen and (max-width: 1250px){
     #text{
-        top: 15%;
+        top: 10%;
     }
 }
 
