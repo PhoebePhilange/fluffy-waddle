@@ -40,11 +40,20 @@ header{
 
 }
 .card{
-    min-width: 350px;
+    width: 380px;
     margin: .5rem;
-    display: flex;
-    justify-content: space-evenly;
     padding: 0;
+}
+.dj{
+    max-width: 64px;
+    max-height: 64px;
+    margin-right: 1em;
+}
+.small{
+    min-width: 64px;
+}
+.bulma{
+    width: 64px;
 }
 .about{
     line-height: 250%;
